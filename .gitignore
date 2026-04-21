@@ -1,0 +1,19 @@
+# Node.js
+
+# Logs
+logs/
+
+# Directory for instrumented libs
+lib-cov/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variable file
+.env
+
+# macOS system files
+ds_store/

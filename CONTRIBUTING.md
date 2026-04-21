@@ -1,39 +1,40 @@
-# Contributing to Gobbledygook
+# Panduan Kontribusi untuk Pengembang SAP dan Aplikasi Biasa
 
-Thank you for your interest in contributing to Gobbledygook! Please follow the setup instructions below to get started.
+## Cara Clone Repository
+1. Buka terminal Anda.
+2. Jalankan perintah berikut untuk meng-clone repository:
+   ```
+   git clone https://github.com/org1-SOCTeam/Gobbledygook.git
+   ```
+3. Masuk ke direktori yang baru saja di-clone:
+   ```
+   cd Gobbledygook
+   ```
 
-## Setup Instructions for Workshop Participants
+## Branching
+- Selalu buat branch baru untuk setiap fitur atau perbaikan yang Anda kerjakan:
+  ```
+  git checkout -b nama-branch
+  ```
+- Gunakan nama yang deskriptif untuk branch Anda.
 
-### 1. Clone the Repository
-To get a local copy of the repository, use the following command:
-```bash
-git clone https://github.com/org1-SOCTeam/Gobbledygook.git
-```
+## Submit Pull Request
+1. Setelah Anda menyelesaikan pekerjaan Anda, push branch ke remote:
+   ```
+   git push origin nama-branch
+   ```
+2. Buka repository di GitHub dan buat Pull Request (PR) dari branch Anda ke `main`.
+3. Tambahkan deskripsi yang jelas tentang perubahan yang Anda buat.
 
-### 2. Create a Branch
-Before making any changes, create a new branch for your work:
-```bash
-cd Gobbledygook
-git checkout -b your-branch-name
-```
+## Cek Hasil Workflow
+- Setelah mengajukan PR, pastikan untuk memeriksa status workflow dan build yang dijalankan otomatis oleh CI/CD.
+- Periksa apakah semua tes berhasil sebelum menggabungkan PR.
 
-### 3. Make Changes
-Feel free to make any changes or add new features in this branch.
+## Aturan Code Review
+- Semua PR wajib ditinjau oleh setidaknya satu anggota tim lain sebelum digabungkan.
+- Berikan umpan balik konstruktif dan jaga komunikasi tetap terbuka.
 
-### 4. Commit Your Changes
-Once you're satisfied with your changes, commit them:
-```bash
-git add .
-git commit -m "Description of your changes"
-```
-
-### 5. Push Your Changes
-Push your changes to the remote repository:
-```bash
-git push origin your-branch-name
-```
-
-### 6. Create a Pull Request
-Go to the repository on GitHub, and you'll see an option to create a pull request for your pushed branch. Follow the prompts to submit your pull request for review.
-
-Thank you for contributing!
+## Tips Kontribusi Kolaboratif Lintas Grup
+- Gunakan issue tracker untuk mendiskusikan fitur baru dan perbaikan.
+- Saling memberi tahu tentang progres masing-masing agar kolaborasi tetap efektif.
+- Tetap terbuka terhadap umpan balik dari grup lain dan bersedia untuk menyesuaikan pekerjaan Anda jika diperlukan.

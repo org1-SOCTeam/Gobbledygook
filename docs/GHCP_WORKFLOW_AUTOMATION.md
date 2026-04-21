@@ -1,0 +1,1 @@
+prompt Copilot siap pakai untuk generate workflow YAML, tips Copilot di CI.

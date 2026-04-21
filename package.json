@@ -1,0 +1,17 @@
+{
+  "name": "gobbledygook",
+  "version": "1.0.0",
+  "description": "Sederhana Node.js Application",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.1"
+  }
+}
